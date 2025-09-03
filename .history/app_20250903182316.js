@@ -33,26 +33,17 @@ const podcasts = [
       genres: ["Business", "Entrepreneurship"],
       updated: "2025-01-12",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
-      seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
-      ]
-    },
+     
     {
       title: "Podcast Title",
       seasons: 5,
       genres: ["True Crime", "Mystery"],
       updated: "2025-01-05",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Unsolved mysteries and chilling true crime stories.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Cold Cases", desc: "Unresolved crimes", episodes: 12 },
+        { name: "Season 2: Criminal Minds", desc: "Profiles and stories", episodes: 13 }
       ]
     },
     {
@@ -61,12 +52,10 @@ const podcasts = [
       genres: ["Health", "Lifestyle"],
       updated: "2025-01-14",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Tips and discussions on wellness, fitness, and healthy eating.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Nutrition", desc: "Eating right", episodes: 10 },
+        { name: "Season 2: Fitness", desc: "Exercise routines", episodes: 12 }
       ]
     },
     {
@@ -75,12 +64,10 @@ const podcasts = [
       genres: ["History", "Education"],
       updated: "2025-01-09",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Exploring fascinating stories from history.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Ancient Times", desc: "Civilizations", episodes: 11 },
+        { name: "Season 2: Modern History", desc: "World events", episodes: 14 }
       ]
     },
     {
@@ -89,12 +76,10 @@ const podcasts = [
       genres: ["Sports", "News"],
       updated: "2025-01-07",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Weekly sports analysis, interviews, and news updates.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Football", desc: "Game highlights", episodes: 20 },
+        { name: "Season 2: Global Sports", desc: "Around the world", episodes: 18 }
       ]
     },
     {
@@ -103,14 +88,12 @@ const podcasts = [
       genres: ["Science", "Nature"],
       updated: "2025-01-06",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Conversations about the environment, animals, and natural wonders.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Wildlife", desc: "Animal world", episodes: 12 },
+        { name: "Season 2: Oceans", desc: "Life underwater", episodes: 10 }
       ]
-    },
+    }
   ];
   
   // Elements

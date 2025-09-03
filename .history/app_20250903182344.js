@@ -103,14 +103,12 @@ const podcasts = [
       genres: ["Science", "Nature"],
       updated: "2025-01-06",
       cover: "https://via.placeholder.com/300x200",
-      description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
+      description: "Conversations about the environment, animals, and natural wonders.",
       seasonList: [
-        { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
-        { name: "Season 2: Advanced Topics", desc: "Deep dives into complex subjects", episodes: 15 },
-        { name: "Season 1: Industry Insights", desc: "Expert perspectives and case studies", episodes: 18 },
-        { name: "Season 1: Future Trends", desc: "What's coming next in tech", episodes: 20 },
+        { name: "Season 1: Wildlife", desc: "Animal world", episodes: 12 },
+        { name: "Season 2: Oceans", desc: "Life underwater", episodes: 10 }
       ]
-    },
+    }
   ];
   
   // Elements

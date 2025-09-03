@@ -4,7 +4,7 @@ const podcasts = [
       seasons: 3,
       genres: ["Technology", "Business"],
       updated: "2025-01-15",
-      cover: "https://via.placeholder.com/300x200",
+      cover: "https://via.placeholder.com/500x200",
       description: "Join us every week as we dive into the latest technology trends, innovations, and industry insights. From artificial intelligence and machine learning to startup culture and digital transformation, we explore the forces shaping our digital future. Each episode features expert interviews, case studies, and actionable insights for professionals and enthusiasts alike.",
       seasonList: [
         { name: "Season 1: Getting Started", desc: "Introduction to the fundamentals", episodes: 12 },
