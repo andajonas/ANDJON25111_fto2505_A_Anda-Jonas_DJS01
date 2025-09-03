@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PodcastApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">🎙️ PodcastApp</div>
+    <div class="search-profile">
+      <input type="text" placeholder="Search...">
+      <div class="profile">👤</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Filters -->
+    <div class="filters">
+      <label>Filter by:
+        <select id="genreFilter">
+          <option value="all">All Genres</option>
+          <option value="Technology">Technology</option>
+          <option value="Business">Business</option>
+          <option value="Comedy">Comedy</option>
+          <option value="History">History</option>
+        </select>
+      </label>
+      <select id="sortFilter">
+        <option value="recent">Recently Updated</option>
+        <option value="seasons">Most Seasons</option>
+      </select>
+    </div>
+
+    <!-- Podcast Grid -->
+    <div id="podcastGrid" class="grid"></div>
+  </main>
+
+  <!-- Modal -->
+  <div id="podcastModal" class="modal hidden">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
